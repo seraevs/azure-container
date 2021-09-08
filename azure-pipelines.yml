@@ -37,7 +37,7 @@ stages:
         command: buildAndPush
         repository: 'serakuz888'
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-        containerRegistry: 'contaner-registry-test'
+        containerRegistry: 'docker-registry-test'
         tags: |
           $(tag)
     - task: CopyFiles@2
