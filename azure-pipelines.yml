@@ -1,16 +1,4 @@
-  
-# Docker
-# Build and push an image to Azure Container Registry
-# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
-
-
-  variables:
-  # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'serakuz888_container'
-  imageRepository: 'serakuz888'
-  containerRegistry: 'serakuz888.azurecr.io'
-
-# Docker
+  # Docker
 # Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
